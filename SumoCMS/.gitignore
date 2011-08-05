@@ -8,6 +8,7 @@ target-eclipse/
 #  cf. GRAILS_HOME/scripts/Upgrade.groovy, target( upgrade )
 /web-app/WEB-INF
 web-app/plugins
+.link_to_grails_plugins
 
 # Eclipse Project files
 *.launch
