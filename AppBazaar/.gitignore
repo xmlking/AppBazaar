@@ -1,0 +1,21 @@
+# .gitignore for Grails 2.0.0M1
+
+# Maven output directory
+target/
+target-eclipse/
+
+# web application files that are overwritten by "grails upgrade"
+#  cf. GRAILS_HOME/scripts/Upgrade.groovy, target( upgrade )
+/web-app/WEB-INF
+web-app/plugins
+
+# Eclipse Project files
+*.launch
+*.tmproj 
+*~
+
+# OS X generated files
+.DS_Store
+
+# project release file
+*.war
