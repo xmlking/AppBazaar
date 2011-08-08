@@ -90,3 +90,12 @@ log4j = {
 
     warn   'org.mortbay.log'
 }
+
+// Added by the Spring Security Core plugin:
+grails.plugins.springsecurity.userLookup.userDomainClassName = 'com.cb.appbazaar.security.domains.User'
+grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'com.cb.appbazaar.security.domains.UserRole'
+grails.plugins.springsecurity.authority.className = 'com.cb.appbazaar.security.domains.Role'
+grails.plugins.springsecurity.rememberMe.persistent = true
+grails.plugins.springsecurity.rememberMe.persistentToken.domainClassName = 'com.cb.appbazaar.security.domains.PersistentLogin'
+
+grails.plugins.springsecurity.openid.domainClass = 'com.cb.appbazaar.security.domains.OpenID'
